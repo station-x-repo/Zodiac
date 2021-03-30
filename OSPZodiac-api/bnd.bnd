@@ -1,0 +1,10 @@
+Bundle-Name: OSPZodiac-api
+Bundle-SymbolicName: com.osp.zodiac.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.osp.zodiac.exception,\
+	com.osp.zodiac.model,\
+	com.osp.zodiac.service,\
+	com.osp.zodiac.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../OSPZodiac-service/service.xml
